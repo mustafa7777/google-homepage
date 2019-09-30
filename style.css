@@ -22,3 +22,7 @@ body, a {
     display: inline;
     position: static;
 }
+
+.search {
+    position: absolute;
+}
