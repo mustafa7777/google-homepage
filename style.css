@@ -1,9 +1,24 @@
 *{
     margin: 0;
-    padding 0;
+    padding: 0;
 }
 
-html {
-    hieght: 100%;
-    witdh: 100%;
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    min-width: 700px;
+}
+
+body, a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: inline;
+    position: static;
 }
