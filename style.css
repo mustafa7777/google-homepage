@@ -25,4 +25,51 @@ body, a {
 
 .search {
     position: absolute;
+    top: 20px;
+    margin-left: 30px;
+    width: 630px;
+    height: 40px;
+    border: 1px solid #d7d7c1;
+    border-radius: 25px;
+    display: block;
+    left: 100px;
+    outline: none;
+    font-size: 16px;
+    text-indent: 20px;
+}
+
+.search:hover {
+	font-size: 16px;
+}
+
+.image {
+    position: absolute;
+    height: 28px;
+    width: 82px;
+    margin: 30px;
+
+}
+
+.search-icon {
+    position: relative;
+    left: 620px;
+    top: 25px;
+    right: 25px;
+}
+
+.mic-icon {
+    position: relative;
+    left: 670px;
+    right: 25px;
+    bottom: 10px;
+}
+
+.s-icon { 
+    width: 35px;
+    height: 35px;
+}
+
+.m-icon {
+    width: 17px;
+    height: 24px;
 }
